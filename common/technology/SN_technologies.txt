@@ -1,0 +1,57 @@
+
+tech_ancient_ships = { #暂定远古系列常规舰船
+	cost = 65536
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {years_passed > 65536}
+		}
+	}
+	
+	
+	gateway = ship
+	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_ANCIENT_SHIPS_TITLE"
+			desc = "TECH_ANCIENT_SHIPS_DESC"
+		}
+	}
+	
+	
+	ai_weight = {
+		factor = 0
+	}
+}
+
+
+tech_ancient_flagship = {	#远古旗舰
+	cost = 65536
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {years_passed > 65536}
+		}
+	}
+
+	start_tech = no
+	gateway = ship
+	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_ANCIENT_FLAGSHIP_TITLE"
+			desc = "TECH_ANCIENT_FLAGSHIP_DESC"
+		}
+	}
+	
+	
+	ai_weight = {
+		factor = 0
+	}
+}

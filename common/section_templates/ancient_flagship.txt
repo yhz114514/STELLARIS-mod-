@@ -1,0 +1,517 @@
+ship_section_template = {
+	key = "ANCIENT_FLAGSHIP_RE"
+	ship_size = ancientflagship
+	fits_on_slot = mid
+
+
+#####################脊峰炮及主炮#########################
+
+	component_slot = {
+	name = "PLANET_KILLER_GUN_01"
+	template = "invisible_planet_killer_fixed"
+	locatorname = "root"
+	}
+	component_slot = {
+	name = "LARGE_65"
+	template = "invisible_titanic_fixed"
+	locatorname = "main_gun_01"
+	}
+	component_slot = {
+	name = "LARGE_75"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_10"
+	}
+	component_slot = {
+	name = "LARGE_77"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_12"
+	}
+	component_slot = {
+	name = "LARGE_78"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_13"
+	}
+	component_slot = {
+	name = "LARGE_79"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_14"
+	}
+	component_slot = {
+	name = "LARGE_80"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_15"
+	}
+	component_slot = {
+	name = "LARGE_81"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_16"
+	}
+	component_slot = {
+	name = "LARGE_82"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_17"
+	}
+	component_slot = {
+	name = "LARGE_83"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_18"
+	}
+	component_slot = {
+	name = "LARGE_66"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_01"
+	}
+	component_slot = {
+	name = "LARGE_67"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_02"
+	}
+	component_slot = {
+	name = "LARGE_68"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_03"
+	}
+	component_slot = {
+	name = "LARGE_69"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_04"
+	}
+	component_slot = {
+	name = "LARGE_71"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_06"
+	}
+	component_slot = {
+	name = "LARGE_72"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_07"
+	}
+	component_slot = {
+	name = "LARGE_73"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_08"
+	}
+	component_slot = {
+	name = "LARGE_74"
+	template = "invisible_titanic_fixed"
+	locatorname = "titanic_gun_09"
+	}
+
+#############A火炮甲板#################
+
+	component_slot = {
+	name = "LARGE_01"
+	template = "large_turret"
+	locatorname = "large_gun_a_01"
+	}
+
+	component_slot = {
+	name = "LARGE_02"
+	template = "large_turret"
+	locatorname = "large_gun_a_02"
+	}
+	
+	component_slot = {
+	name = "LARGE_03"
+	template = "large_turret"
+	locatorname = "large_gun_a_03"
+	}
+
+	component_slot = {
+	name = "LARGE_04"
+	template = "large_turret"
+	locatorname = "large_gun_a_04"
+	}
+
+	component_slot = {
+	name = "LARGE_05"
+	template = "large_turret"
+	locatorname = "large_gun_a_05"
+	}
+
+	component_slot = {
+	name = "LARGE_06"
+	template = "large_turret"
+	locatorname = "large_gun_a_06"
+	}
+	
+	component_slot = {
+	name = "LARGE_07"
+	template = "large_turret"
+	locatorname = "large_gun_a_07"
+	}
+
+	component_slot = {
+	name = "LARGE_08"
+	template = "large_turret"
+	locatorname = "large_gun_a_08"
+	}
+
+	component_slot = {
+	name = "LARGE_09"
+	template = "large_turret"
+	locatorname = "large_gun_a_09"
+	}
+
+	component_slot = {
+	name = "LARGE_10"
+	template = "large_turret"
+	locatorname = "large_gun_a_10"
+	}
+	
+	component_slot = {
+	name = "LARGE_11"
+	template = "large_turret"
+	locatorname = "large_gun_a_11"
+	}
+
+	component_slot = {
+	name = "LARGE_12"
+	template = "large_turret"
+	locatorname = "large_gun_a_12"
+	}
+
+	component_slot = {
+	name = "LARGE_13"
+	template = "large_turret"
+	locatorname = "large_gun_a_13"
+	}
+
+	component_slot = {
+	name = "LARGE_14"
+	template = "large_turret"
+	locatorname = "large_gun_a_14"
+	}
+	
+	component_slot = {
+	name = "LARGE_15"
+	template = "large_turret"
+	locatorname = "large_gun_a_15"
+	}
+
+	component_slot = {
+	name = "LARGE_16"
+	template = "large_turret"
+	locatorname = "large_gun_a_16"
+	}
+
+
+#############B火炮甲板#################
+
+	component_slot = {
+	name = "LARGE_17"
+	template = "large_turret"
+	locatorname = "large_gun_b_01"
+	}
+
+	component_slot = {
+	name = "LARGE_18"
+	template = "large_turret"
+	locatorname = "large_gun_b_02"
+	}
+	
+	component_slot = {
+	name = "LARGE_19"
+	template = "large_turret"
+	locatorname = "large_gun_b_03"
+	}
+
+	component_slot = {
+	name = "LARGE_20"
+	template = "large_turret"
+	locatorname = "large_gun_b_04"
+	}
+
+	component_slot = {
+	name = "LARGE_21"
+	template = "large_turret"
+	locatorname = "large_gun_b_05"
+	}
+
+	component_slot = {
+	name = "LARGE_22"
+	template = "large_turret"
+	locatorname = "large_gun_b_06"
+	}
+	
+	component_slot = {
+	name = "LARGE_23"
+	template = "large_turret"
+	locatorname = "large_gun_b_07"
+	}
+
+	component_slot = {
+	name = "LARGE_24"
+	template = "large_turret"
+	locatorname = "large_gun_b_08"
+	}
+
+	component_slot = {
+	name = "LARGE_25"
+	template = "large_turret"
+	locatorname = "large_gun_b_09"
+	}
+
+	component_slot = {
+	name = "LARGE_26"
+	template = "large_turret"
+	locatorname = "large_gun_b_10"
+	}
+	
+	component_slot = {
+	name = "LARGE_27"
+	template = "large_turret"
+	locatorname = "large_gun_b_11"
+	}
+
+	component_slot = {
+	name = "LARGE_28"
+	template = "large_turret"
+	locatorname = "large_gun_b_12"
+	}
+
+	component_slot = {
+	name = "LARGE_29"
+	template = "large_turret"
+	locatorname = "large_gun_b_13"
+	}
+
+	component_slot = {
+	name = "LARGE_30"
+	template = "large_turret"
+	locatorname = "large_gun_b_14"
+	}
+	
+	component_slot = {
+	name = "LARGE_31"
+	template = "large_turret"
+	locatorname = "large_gun_b_15"
+	}
+
+	component_slot = {
+	name = "LARGE_32"
+	template = "large_turret"
+	locatorname = "large_gun_b_16"
+	}
+#############C火炮甲板#################
+
+	component_slot = {
+	name = "LARGE_33"
+	template = "large_turret"
+	locatorname = "large_gun_c_01"
+	}
+
+	component_slot = {
+	name = "LARGE_34"
+	template = "large_turret"
+	locatorname = "large_gun_c_02"
+	}
+	
+	component_slot = {
+	name = "LARGE_35"
+	template = "large_turret"
+	locatorname = "large_gun_c_03"
+	}
+
+	component_slot = {
+	name = "LARGE_36"
+	template = "large_turret"
+	locatorname = "large_gun_c_04"
+	}
+
+	component_slot = {
+	name = "LARGE_37"
+	template = "large_turret"
+	locatorname = "large_gun_c_05"
+	}
+
+	component_slot = {
+	name = "LARGE_38"
+	template = "large_turret"
+	locatorname = "large_gun_c_06"
+	}
+	
+	component_slot = {
+	name = "LARGE_39"
+	template = "large_turret"
+	locatorname = "large_gun_c_07"
+	}
+
+	component_slot = {
+	name = "LARGE_40"
+	template = "large_turret"
+	locatorname = "large_gun_c_08"
+	}
+
+	component_slot = {
+	name = "LARGE_41"
+	template = "large_turret"
+	locatorname = "large_gun_c_09"
+	}
+
+	component_slot = {
+	name = "LARGE_42"
+	template = "large_turret"
+	locatorname = "large_gun_c_10"
+	}
+	
+	component_slot = {
+	name = "LARGE_43"
+	template = "large_turret"
+	locatorname = "large_gun_c_11"
+	}
+
+	component_slot = {
+	name = "LARGE_44"
+	template = "large_turret"
+	locatorname = "large_gun_c_12"
+	}
+
+	component_slot = {
+	name = "LARGE_45"
+	template = "large_turret"
+	locatorname = "large_gun_c_13"
+	}
+
+	component_slot = {
+	name = "LARGE_46"
+	template = "large_turret"
+	locatorname = "large_gun_c_14"
+	}
+	
+	component_slot = {
+	name = "LARGE_47"
+	template = "large_turret"
+	locatorname = "large_gun_c_15"
+	}
+
+	component_slot = {
+	name = "LARGE_48"
+	template = "large_turret"
+	locatorname = "large_gun_c_16"
+	}
+#############D火炮甲板#################
+
+	component_slot = {
+	name = "LARGE_49"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_01"
+	}
+
+	component_slot = {
+	name = "LARGE_50"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_02"
+	}
+	
+	component_slot = {
+	name = "LARGE_51"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_03"
+	}
+
+	component_slot = {
+	name = "LARGE_52"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_04"
+	}
+
+	component_slot = {
+	name = "LARGE_53"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_05"
+	}
+
+	component_slot = {
+	name = "LARGE_54"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_06"
+	}
+	
+	component_slot = {
+	name = "LARGE_55"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_07"
+	}
+
+	component_slot = {
+	name = "LARGE_56"
+	template = "extra_large_turret"
+	locatorname = "large_gun_d_08"
+	}
+###############E火炮甲板#######################
+	component_slot = {
+	name = "LARGE_57"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_01"
+	}
+
+	component_slot = {
+	name = "LARGE_58"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_02"
+	}
+	
+	component_slot = {
+	name = "LARGE_59"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_03"
+	}
+
+	component_slot = {
+	name = "LARGE_60"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_04"
+	}
+
+	component_slot = {
+	name = "LARGE_61"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_05"
+	}
+
+	component_slot = {
+	name = "LARGE_62"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_06"
+	}
+	
+	component_slot = {
+	name = "LARGE_63"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_07"
+	}
+
+	component_slot = {
+	name = "LARGE_64"
+	template = "extra_large_turret"
+	locatorname = "large_gun_e_08"
+	}
+########################机库############################
+	component_slot = {
+		name = "STRIKE_01"
+		template = "large_strike_craft"
+		locatorname = "aircraft"
+	}
+
+
+
+	should_draw_components = yes
+	entity = "ancient_flagship_RE_entity"
+	icon = ""			#摸了
+
+
+	large_utility_slots = 128
+	aux_utility_slots = 16
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 0
+		}
+	}
+	ai_weight = {
+		weight = 3
+	}
+}
+

@@ -1,0 +1,119 @@
+#神圣泰拉
+ancient_system_01 = {
+	usage = misc_system_init
+	class = "rl_standard_stars"			# System's star class: may be a specific class (e.g. 'sc_binary_10') or a random class from a list (e.g. 'rl_standard_stars')
+	name = "ancient_SUN"
+
+	usage_odds = {
+		base = 0
+		modifier = {
+			add = 2000000
+		}
+	}
+
+	spawn_chance = 100
+	max_instances = 1
+
+
+	planet = {
+		class = star
+		orbit_distance = 0
+		class = pc_g_star
+		size = 40
+	}
+	planet = {
+		name = "ancient_Mercury"
+		class = "pc_molten"  # 水星
+		orbit_distance = 30
+		size = 10
+		has_ring = no
+	}
+
+	planet = {
+		name = "ancient_Venus"
+		class = "pc_toxic"  # 金星
+		orbit_distance = 40
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "ancient_Earth"
+		class = "pc_relic"  # 泰拉 遗落
+		orbit_distance = 45
+		size = 20
+		has_ring = no
+		home_planet = no  
+		init_effect = {
+			save_event_target_as = sentry_planet
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "ancient_flagship_ruin"
+			planet = event_target:sentry_planet #在地球生成废弃巨构 ，船坞为占位符
+		}
+	}
+
+
+	planet = {
+		name = "ancient_Mars"
+		class = "pc_machine"  # 火星 机械
+		orbit_distance = 50
+		size = 15
+		has_ring = no
+		home_planet = no
+	}
+
+
+	planet = {
+		name = "ancient_Jupiter"
+		class = "pc_gas_giant"  # 木星：气态巨行星
+		orbit_distance = 100
+		size = 60
+		has_ring = no
+		init_effect = {
+			save_event_target_as = sentry_planet_1
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "mega_shipyard_3"
+			planet = event_target:sentry_planet_1 #在木星生成废弃巨构 ，船坞为占位符
+		}
+	}
+
+	planet = {
+		name = "ancient_Saturn"
+		class = "pc_gas_giant"  # 土星：气态巨行星
+		orbit_distance = 120
+		size = 25
+		has_ring = yes
+	}
+
+	planet = {
+		name = "ancient_Uranus"
+		class = "pc_gas_giant"  # 天王星：气态巨行星
+		orbit_distance = 160
+		size = 30
+		has_ring = yes
+	}
+
+	planet = {
+		name = "ancient_Neptune"
+		class = "pc_gas_giant"  # 海王星：气态巨行星
+		orbit_distance = 180
+		size = 30
+		has_ring = yes
+	}
+
+	neighbor_system = {
+		# The game will check all systems within the 'distance' limit until it finds one that fulfills the 'trigger', starting with the nearest system first (according to Euclidean distance):
+		distance = { min = 10 max = 100 }			# Euclidean distance, i.e. a straight line between 2 points
+		hyperlane_distance = { min = 1 max = 20 }	# Total distance via hyperlanes (distance traveled inside systems is not included)
+		hyperlane_jumps = { min = 1 max = 20 }		# Number of discrete jumps via hyperlanes
+
+	}
+}

@@ -1,0 +1,60 @@
+
+weapon_component_template = {	#RE版旗舰主炮
+	key = "flagship_RE_maingun"
+	size = titanic
+	type = instant
+	icon = ""			#dddd
+	icon_frame = 1
+	power = -800000
+	component_set = "flagship_RE_maingun"	#dddd
+	projectile_gfx = ""	#dddd
+	tags = { weapon_type_energy weapon_role_artillery }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+
+	size_restriction = { ancientflagship }
+	ship_limit = 1
+
+	firing_arc = 20
+	min_range = 0.0
+	use_ship_kill_target = no
+	entity = "flagship_maingun_entity"
+	damage = { min = 4000000 max = 10000000 }
+	windup = { min = 128 max = 128 }
+	range = 512
+	tracking = 0.10
+	accuracy = 1
+	total_fire_time = 45
+	shield_penetration = 4
+	armor_penetration = 4
+	tracking = 1.0
+	hostile_aura = {
+		name = "NOVA_CANNON_RE_AURA"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = NOVA_CANNON_RE_AURA
+			priority = 1
+		}
+
+		modifier = {
+			ship_evasion_mult = -0.30
+			ship_evasion_add = -15
+			ship_hull_regen_add_perc = -0.01
+			ship_armor_regen_add_perc = -0.01
+		}
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 800
+		}
+		upkeep = {
+			energy = 65
+		}
+	}
+	ai_weight = {
+		weight = 999
+	}
+}

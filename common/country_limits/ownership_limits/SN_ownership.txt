@@ -1,0 +1,5 @@
+default = {
+	ship_of_size_limits = {
+		ancientflagship_ship_limit
+	}
+}

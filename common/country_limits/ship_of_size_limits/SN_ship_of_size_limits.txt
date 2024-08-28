@@ -1,0 +1,10 @@
+ancientflagship_ship_limit = {
+	ship_types = {
+		ancientflagship
+	}
+	base = 1   # 只能修一条
+	show = {
+		is_scope_valid = yes
+		has_technology = tech_ancient_ships
+	}
+}
